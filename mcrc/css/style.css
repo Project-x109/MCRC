@@ -4165,6 +4165,7 @@ input[type="button"].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -4216,6 +4217,8 @@ input[type="button"].btn-block {
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: center;
+  background-color: black !important;
+
 }
 
 .tab-content > .tab-pane {
@@ -9567,9 +9570,13 @@ h5,
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   opacity: 1 !important;
+  background-color: white;
+  color: #0C4A60;
+
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-  color: #fff;
+  color: #0C4A60;
+
 }
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
   border: none;
